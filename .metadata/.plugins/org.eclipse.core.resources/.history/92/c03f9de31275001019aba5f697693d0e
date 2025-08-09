@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module FizzBuzz {
-	export default;
-}
