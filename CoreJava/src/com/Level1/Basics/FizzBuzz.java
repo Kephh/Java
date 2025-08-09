@@ -2,7 +2,7 @@ package com.Level1.Basics;
 
 //import java.util.Scanner;
 
-class FizzBuzz{
+public class FizzBuzz{
 	public static void main(String args[]) {
 //		Scanner sc = new Scanner(System.in);
 		int lim = 100; // sc.nextInt();
@@ -12,7 +12,7 @@ class FizzBuzz{
 		for(int i = 1; i <= lim; i++) {
 			Boolean fizz = i % 3 == 0;
 			Boolean buzz = i % 5 == 0;
-//			
+	
 			if (fizz && buzz) {
 				System.out.println("FizzBuzz");
 				fizzBuzzCount ++;

@@ -1,7 +1,0 @@
-package com.fizzbuzz;
-
-class FizzBuzz{
-	public static void main(String args[]) {
-		
-	}
-}

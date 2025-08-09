@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module FizzBuzz {
-	exports com.fizzbuzz;
-}
