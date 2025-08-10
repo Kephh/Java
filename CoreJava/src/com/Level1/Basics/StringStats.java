@@ -1,7 +1,6 @@
 package com.Level1.Basics;
 
 import java.util.Scanner;
-import java.util.Set;
 
 public class StringStats {
 	public static void main(String args[]) {
@@ -22,7 +21,7 @@ public class StringStats {
 		
 		
 		// another optimized method
-//		Set<Character> vowelSet = Set.of('a','e','i','o','u');
+//		Set<Character> vowelSet = Set.of('a','e','i','o','u'); // Set stores unique values
 //		for(char ch : str.toLowerCase().toCharArray()) {
 //			// the above 3 variables can be optimized to only 2.
 //		}

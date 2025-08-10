@@ -16,7 +16,7 @@ public class PrimeNums {
 	
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
-		PrimeNums kaif = new PrimeNums(); // creates obj name kaif, change it to your name
+//		PrimeNums kaif = new PrimeNums(); // creates obj name kaif, change it to your name
 
 		System.out.print("Enter a num to check if prime: ");
 		int num = sc.nextInt();

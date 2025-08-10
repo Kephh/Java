@@ -2,10 +2,18 @@
 
 This repository contains small Java programs to self-assess and master core Java concepts.
 
-## Structure
+## Structure and order is as follows
 
 - `Level1.Basics` - basic programming, control flow, arrays, strings
+    `FizzBuzz`
+    -->`StringStats`
+    -->`Secondlargest`
+    -->`PrimeNums`
+    -->`ArgsParser`
 - `Level2.OOPs` - object-oriented programming, exceptions, collections
+    `Student`
+    -->`Shape`
+    -->`Bank`
 - `Level3.Concurrency` - file I/O and multithreading/concurrency
 
 ## How to run
