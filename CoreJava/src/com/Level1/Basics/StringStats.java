@@ -1,6 +1,7 @@
 package com.Level1.Basics;
 
 import java.util.Scanner;
+import java.util.Set;
 
 public class StringStats {
 	public static void main(String args[]) {
@@ -18,6 +19,14 @@ public class StringStats {
 		int consonantCount = 0;
 		int digitCount = 0;
 		int puncCount = 0;
+		
+		
+		// another optimized method
+//		Set<Character> vowelSet = Set.of('a','e','i','o','u');
+//		for(char ch : str.toLowerCase().toCharArray()) {
+//			// the above 3 variables can be optimized to only 2.
+//		}
+		
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.toLowerCase().charAt(i); // toLoweCase method lowercases the whole string
 			if (str.charAt(i) == ' ') { // charAt takes individual character from string, "Kaif".charAt(1) is 'a'
@@ -34,6 +43,9 @@ public class StringStats {
 				puncCount ++;
 			}
 		}
+		
+		
+		
 		System.out.println("Vowels: "+vowelCount);
 		System.out.println("Consonants: "+consonantCount);
 		System.out.println("Digits: "+digitCount);
