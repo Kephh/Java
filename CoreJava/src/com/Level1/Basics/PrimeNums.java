@@ -21,7 +21,7 @@ public class PrimeNums {
 		System.out.print("Enter a num to check if prime: ");
 		int num = sc.nextInt();
 		
-		if(kaif.isPrime(num)) // will fail, uncomment line 19 and add the obj name before isprime -- kaif.isPrime(num) 
+		if(isPrime(num)) // will fail, uncomment line 19 and add the obj name before isprime -- kaif.isPrime(num) 
 			System.out.println(num+" is prime");
 		else
 			System.out.println(num+" is not prime");
@@ -32,7 +32,7 @@ public class PrimeNums {
 		int res = 0;
 		
 		while (limit != 0 ) {
-			if(kaif.isPrime(checker)) {
+			if(isPrime(checker)) { //give obj name here as well
 				res = checker;
 				limit --;
 			}
